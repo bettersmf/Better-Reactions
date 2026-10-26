@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "https://www.simplemachines.org/xml/package-info">
+<package-info xmlns="https://www.simplemachines.org/xml/package-info" xmlns:smf="https://www.simplemachines.org/">
+	<id>bettersmf:better-reactions-likes</id>
+	<name>Better Reactions &amp; Likes</name>
+	<version>0.1.0</version>
+	<type>modification</type>
+	<upgrade from="0.1.1, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.4.0, 0.4.1, 0.4.2, 0.4.2a, 0.4.2b, 0.4.2c, 0.5.0, 0.6.0, 0.7.0, 0.7.1, 0.7.1a, 0.8.0, 0.8.0a, 0.8.0b, 0.9.0, 0.9.0a, 0.9.0b, 0.9.0c, 0.9.0d, 1.0.0 RC1, 1.0.0 RC1a, 1.0.0 RC1b, 1.0.0 RC1c" for="2.1 - 2.1.99">
+		<require-file name="Sources/BetterReactions.php" destination="$sourcedir" />
+		<require-file name="Themes/default/languages/BetterReactions.english.php" destination="$languagedir" />
+		<require-file name="Themes/default/BetterReactionsGeneral.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsManager.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsDisplay.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsBoards.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsCategories.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsFeatures.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsPresets.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsCleanup.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsPermissions.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsAnalytics.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsProfile.template.php" destination="$themedir" />
+		<require-file name="Themes/default/css/better_reactions.css" destination="$themedir/css" />
+		<require-file name="Themes/default/scripts/better_reactions.js" destination="$themedir/scripts" />
+		<require-file name="Themes/default/images/admin/better_reactions.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_reactions.png" destination="$themes_dir/default/images/admin/big" />
+		<code>better_reactions_install.php</code>
+	</upgrade>
+	<install for="2.1 - 2.1.99">
+		<require-file name="Sources/BetterReactions.php" destination="$sourcedir" />
+		<require-file name="Themes/default/languages/BetterReactions.english.php" destination="$languagedir" />
+		<require-file name="Themes/default/BetterReactionsGeneral.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsManager.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsDisplay.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsBoards.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsCategories.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsFeatures.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsPresets.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsCleanup.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsPermissions.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsAnalytics.template.php" destination="$themedir" />
+		<require-file name="Themes/default/BetterReactionsProfile.template.php" destination="$themedir" />
+		<require-file name="Themes/default/css/better_reactions.css" destination="$themedir/css" />
+		<require-file name="Themes/default/scripts/better_reactions.js" destination="$themedir/scripts" />
+		<require-file name="Themes/default/images/admin/better_reactions.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_reactions.png" destination="$themes_dir/default/images/admin/big" />
+		<code>better_reactions_install.php</code>
+	</install>
+	<uninstall for="2.1 - 2.1.99">
+		<code>better_reactions_install.php</code>
+		<database>better_reactions_uninstall_data.php</database>
+		<remove-file name="$sourcedir/BetterReactions.php" />
+		<remove-file name="$languagedir/BetterReactions.english.php" />
+		<remove-file name="$themedir/BetterReactionsGeneral.template.php" />
+		<remove-file name="$themedir/BetterReactionsManager.template.php" />
+		<remove-file name="$themedir/BetterReactionsDisplay.template.php" />
+		<remove-file name="$themedir/BetterReactionsBoards.template.php" />
+		<remove-file name="$themedir/BetterReactionsCategories.template.php" />
+		<remove-file name="$themedir/BetterReactionsFeatures.template.php" />
+		<remove-file name="$themedir/BetterReactionsPresets.template.php" />
+		<remove-file name="$themedir/BetterReactionsCleanup.template.php" />
+		<remove-file name="$themedir/BetterReactionsPermissions.template.php" />
+		<remove-file name="$themedir/BetterReactionsAnalytics.template.php" />
+		<remove-file name="$themedir/BetterReactionsProfile.template.php" />
+		<remove-file name="$themedir/css/better_reactions.css" />
+		<remove-file name="$themedir/scripts/better_reactions.js" />
+	
+		<remove-file name="$themes_dir/default/images/admin/better_reactions.png" />
+		<remove-file name="$themes_dir/default/images/admin/big/better_reactions.png" />
+	</uninstall>
+</package-info>
